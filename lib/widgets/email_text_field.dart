@@ -102,7 +102,7 @@ class _EmailTextFieldState extends State<EmailTextField> {
               ),
             ],
           ),
-          const SizedBox(height: 35),
+          const SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
