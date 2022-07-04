@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vbt_staj_app/constants/app_constants.dart';
+import 'package:flutter_vbt_staj_app/widgets/email_text_field.dart';
 import 'package:flutter_vbt_staj_app/widgets/login_title.dart';
 import 'package:flutter_vbt_staj_app/widgets/login_logo.dart';
 
@@ -46,7 +47,9 @@ class _LoginScreenState extends State<LoginScreen> {
               const LoginTitle(),
               const SizedBox(height: 50),
               Column(
-                children: const [Text("textfiled gelecek")],
+                children: const [
+                  EmailTextField(),
+                ],
               )
             ],
           ),
